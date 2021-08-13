@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
         .getInitialMessage()
         .then((RemoteMessage? message) {
       if (message != null) {
-        Navigator.pushNamed(context, message.data['view']);
+        Navigator.pushNamed(context, message.data['yyyyy']);
       }
     });
     // forground massaging
